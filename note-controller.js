@@ -1,4 +1,11 @@
 /*jshint esversion: 6 */
-function displayNotes(noteList) {
-  document.getElementById('app').innerHTML = noteList.displayList();
+class NoteController {
+
+  constructor(noteListView = new NoteListView()) {
+    this.noteListView = noteListView;
+  }
+
+  displayNotes(element = document.getElementById('app')) {
+    element.innerHTML = this.noteListView.displayList();
+  }
 }
