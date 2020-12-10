@@ -5,7 +5,7 @@ class NoteListView {
     this.array = [];
   }
 
-  viewList() {
+  displayList() {
     // this.array = []; // add this back in if tests start failing
     for (var i = 0; i < this.noteList.list.length; i++) {
       this.array.push('<li><div>' + this.noteList.list[i].text + '</div></li>');

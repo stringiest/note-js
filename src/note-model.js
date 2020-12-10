@@ -1,5 +1,4 @@
 /*jshint esversion: 6 */
-'use strict';
 
 class Note {
   constructor(text) {

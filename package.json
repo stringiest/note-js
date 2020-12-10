@@ -1,0 +1,25 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "This exercise uses the task of creating a note list app as a basis for creating our own testing framework for JavaScript.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stringiest/note-js.git"
+  },
+  "author": "stringiest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stringiest/note-js/issues"
+  },
+  "homepage": "https://github.com/stringiest/note-js#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

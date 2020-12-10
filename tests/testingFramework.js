@@ -17,6 +17,15 @@ function expect(actual) {
       } else {
         console.log("Fail");
       }
+    },
+
+    isTrue: function() {
+      // compare 'actual' and 'expected'
+      if (actual === true) {
+        console.log("Pass");
+      } else {
+        console.log("Fail");
+      }
     }
     // can put a further function in here
   };
